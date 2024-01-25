@@ -1,6 +1,6 @@
 /*Andy Wolf, csc300x-hw2, Pie css page*/
-h1{
-    color:#A4A400;
+h1 {
+    color: #A4A400;
     background-color: #F0F0F0;
     text-decoration: underline;
     text-align: center;
@@ -9,8 +9,8 @@ h1{
     font-family: 'Lucida Sans Unicode';
 }
 
-h2{
-    color:#A4A400;
+h2 {
+    color: #A4A400;
     background-color: #F0F0F0;
     text-decoration: underline;
     font-size: 18pt;
@@ -18,40 +18,40 @@ h2{
     font-family: 'Lucida Sans Unicode';
 }
 
-p{
+p {
     background-color: white;
     color: #404040;
-    font-size:11pt;
-    font-family:georgia;
+    font-size: 11pt;
+    font-family: georgia;
 }
 
-pre{
+pre {
     font-family: monospace;
 }
 
-a{
-    color:#A4A400;
-    font-size:11pt;
+a {
+    color: #A4A400;
+    font-size: 11pt;
 }
 
-li{
+li {
     background-color: white;
     color: #404040;
-    font-size:11pt;
-    font-family:georgia;
+    font-size: 11pt;
+    font-family: georgia;
 }
 
-ul{
+ul {
     list-style-image: url('pie_icon.gif');
 }
 
-.comments{
-    background-color:#FFFFA8;
-    font-style:italic;
-    margin-left:50px;
-    margin-right:50px;
+.comments {
+    background-color: #FFFFA8;
+    font-style: italic;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
-body{
+body {
     background-image: url("silverware.jpg");
 }
