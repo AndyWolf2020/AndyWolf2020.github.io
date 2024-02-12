@@ -1,5 +1,5 @@
 body {
-    background-image: url("/AndyWolf2020.github.io/images/uncg.png");
+    background-image: url('uncg.png');
     background-size: cover;
     background-position: center;
     background-color: rgb(255, 255, 255, 0.2);
