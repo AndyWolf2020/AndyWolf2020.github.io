@@ -39,7 +39,7 @@ function addAmount(num1, num2) {
     return sum;
 }
 
-function displaySum(event) {
+function displaySum() {
     const num1 = document.querySelector("#gyoza");
     const num2 = document.querySelector("#total");
     const result = addAmount(parseFloat(num1), parseFloat(num2));
@@ -56,7 +56,7 @@ function insertAfter(referenceNode, newNode) {
 
 let mealplan = document.querySelector("#mealplan");
 
-function showGyoza(event) {
+function showGyoza() {
     let para = document.createElement("p");
     let node = document.createTextNode("Gyoza: $8.00");
     para.appendChild(node);
@@ -76,7 +76,7 @@ function showGyoza(event) {
     mealplan.insertAfter(addButton, child);
 }
 
-function showKatsu(event) {
+function showKatsu() {
     let para = document.createElement("p");
     let node = document.createTextNode("Katsu: $13.45");
     para.appendChild(node);
@@ -96,7 +96,7 @@ function showKatsu(event) {
     mealplan.insertAfter(addButton, child);
 }
 
-function showRamen(event) {
+function showRamen() {
     let para = document.createElement("p");
     let node = document.createTextNode("Ramen: $10.95");
     para.appendChild(node);
@@ -116,7 +116,7 @@ function showRamen(event) {
     mealplan.insertAfter(addButton, child);
 }
 
-function showRicebowl1(event) {
+function showRicebowl1() {
     let para = document.createElement("p");
     let node = document.createTextNode("Rice Bowl 1: $11.95");
     para.appendChild(node);
@@ -136,7 +136,7 @@ function showRicebowl1(event) {
     mealplan.insertAfter(addButton, child);
 }
 
-function showRicebowl2(event) {
+function showRicebowl2() {
     let para = document.createElement("p");
     let node = document.createTextNode("Rice Bowl 2: $7.95");
     para.appendChild(node);
@@ -156,7 +156,7 @@ function showRicebowl2(event) {
     mealplan.insertAfter(addButton, child);
 }
 
-function showHibachi(event) {
+function showHibachi() {
     let para = document.createElement("p");
     let node = document.createTextNode("Hibachi: $10.75");
     para.appendChild(node);
@@ -176,7 +176,7 @@ function showHibachi(event) {
     mealplan.insertAfter(addButton, child);
 }
 
-function showButcher(event) {
+function showButcher() {
     let para = document.createElement("p");
     let node = document.createTextNode("Da Butcher Slice: $6.50");
     para.appendChild(node);
@@ -196,7 +196,7 @@ function showButcher(event) {
     mealplan.insertAfter(addButton, child);
 }
 
-function showCheese(event) {
+function showCheese() {
     let para = document.createElement("p");
     let node = document.createTextNode("Cheese Slice: $4.00");
     para.appendChild(node);
@@ -216,7 +216,7 @@ function showCheese(event) {
     mealplan.insertAfter(addButton, child);
 }
 
-function showPhilly(event) {
+function showPhilly() {
     let para = document.createElement("p");
     let node = document.createTextNode("Philly Cheesesteak: $11.50");
     para.appendChild(node);
