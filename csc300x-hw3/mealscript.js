@@ -40,7 +40,7 @@ function addAmount(num1, num2) {
 }
 
 function displaySum(event) {
-    const num1 = document.querySelector("#" + event.currentTarget + "Stmt");
+    const num1 = document.querySelector("#" + event.currentTarget.textContent + "Stmt");
     const num2 = document.querySelector("#total");
     const result = addAmount(parseFloat(num1), parseFloat(num2));
     console.log(parseFloat(num1));
