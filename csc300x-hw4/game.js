@@ -15,9 +15,7 @@ function addBorders(option) {
 }
 
 const image = document.getElementById('compImg');
-const cycleImage = ["/AndyWolf2020.github.io/csc300x-hw4/images/rock.PNG",
-"/AndyWolf2020.github.io/csc300x-hw4/images/paper.PNG",
-"/AndyWolf2020.github.io/csc300x-hw4/images/scissors.PNG"];
+const cycleImage = ["rock.PNG", "paper.PNG", "scissors.PNG"];
 
 async function shuffle(){
     image.src = cycleImage[0];
