@@ -32,7 +32,8 @@ async function shuffle(){
     await new Promise(r => setTimeout(r, 500));
 }
 
-function decideWinner(option) {
+async function decideWinner(option) {
+    await new Promise(r => setTimeout(r, 500))
     const computerOptions = [rock, paper, scissors];
     const choiceNumber = Math.floor(Math.random()*3);
     const computerChoice = computerOptions[choiceNumber];
